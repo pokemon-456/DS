@@ -36,3 +36,20 @@ public class Server {
 		System.out.println("Server Exiting...");
 	}
 }
+
+ASSIGNMENT 2
+
+Terminal 1
+idlj -fall Calculator.idl
+javac CalculatorApp/*.java
+javac *.java
+
+
+Terminal 2
+tnameserv -ORBInitialPort 1050
+
+Terminal 3
+java Server -ORBInitialPort 1050 -ORBInitialHost localhost
+
+Terminal 4
+java Client -ORBInitialPort 1050 -ORBInitialHost localhost
