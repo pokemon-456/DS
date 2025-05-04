@@ -9,3 +9,9 @@ public interface Circle extends Remote {
 
 	public double getPerimeter(int radius) throws RemoteException;
 }
+
+
+Command to run 
+Terminal 1    javac *.java
+Terminal 2    java server
+Terminal 3    java client
