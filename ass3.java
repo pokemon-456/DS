@@ -65,7 +65,7 @@ export PATH=$MPJ_HOME/bin:$PATH
 
 4. Compile and run assignment 3 using below commands 
 
-javac -cp "/home/pvg/mpj-v0_44/lib/mpj.jar" DistributedSum.java
+javac -cp "/home/pvg/mpj-v0_44/lib/mpj.jar" DistributedSum.java 
 
 
-mpjrun.sh -np 6 DistributedSum
+mpjrun.sh -np 6 DistributedSum */
